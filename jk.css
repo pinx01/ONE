@@ -1,0 +1,122 @@
+
+body{
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'Epilogue', sans-serif;
+    
+}
+
+.thor{
+    display: flex;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: white;
+    font-size: 15px;
+    
+}
+li{
+    float: left;
+    font-size: 18px;
+    
+}
+li a, .dropbtn{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.dropdown{
+    display: inline-block;
+    font-size: 18px;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    z-index: 1;
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover{background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+#xr{
+float: right;
+margin-right: 40px;
+font-size: 18px;
+}
+.submitbtn{ 
+    padding:  5px 16px 10px ;
+    margin: 8px auto;
+ background-color: white;
+text-align: center;
+    border-radius: 0.5rem;
+    font-size: 15px;
+    margin-bottom: 50px;
+   
+}
+
+#john{
+    width:500px;   
+}
+
+   
+li{
+    list-style: none;
+    
+}
+#KK{
+    margin-left: 20px;
+    width: 8rem;
+    
+
+}
+.SP{
+    margin-left: 100px;
+}
+
+
+.side{
+    margin-left: 300px;
+    margin-top: 2rem;
+}
+.one{
+    margin-left: 200px;
+    margin-top: 10rem;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 500, 700;
+}
+p{
+    font-size: 18px;
+    font-weight: 100;
+    
+}
+
+.KFC{
+    text-align: center;
+    color: white;
+    margin: 14px;
+    padding: 25px;
+       background-color: black;
+      text-align: center;
+     border-color: black;
+     font-size: 18px;
+     border-radius: 1rem;
+      
+}
+
